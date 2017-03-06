@@ -1,6 +1,6 @@
 # DOMDOMDOM
 
-Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to make HTML document traversal and manipulation easy to use.
+Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to make HTML document traversal, manipulation, event handling, and Ajax easy to use.
 
 ## API
 #### $d
@@ -9,7 +9,7 @@ Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to ma
   `$d` can accept a string containing a CSS selector which is used to match a set of elements.
 
   `$d` can also accept an `HTMLElement` which is wrapped in a `DomNodeCollection` object.
-  
+
   `$d` also accepts a callback, which is executed when the DOM is ready.
 
 #### $d.extend
