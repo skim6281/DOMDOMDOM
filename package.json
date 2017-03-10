@@ -1,0 +1,21 @@
+{
+  "name": "DOMDOMDOM",
+  "version": "1.0.0",
+  "description": "Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to make HTML document traversal, manipulation, event handling, and Ajax easy to use.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skim6281/DOMDOMDOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skim6281/DOMDOMDOM/issues"
+  },
+  "homepage": "https://github.com/skim6281/DOMDOMDOM#readme"
+}

@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+section {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.all {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.container {
+  width: 480px;
+  height: 360px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+#display {
+  width: 100%;
+  word-wrap: break-word;
+  height: 100%;
+  overflow: hidden;
+}
+
+.buttons {
+  margin-left: 100px;
+}
+
+.buttons > section > button {
+  margin-right: 20px;
+}
+
+#empty {
+  margin-right: 20px;
+}
+
+content > span {
+  font-size: 11px;
+}
+
+.buttons > section {
+  margin-bottom: 20px;
+  font-size: 11px;
+}
