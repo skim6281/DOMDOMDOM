@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="lib/domdomdom.js" charset="utf-8"></script>
     <script src="lib/demo.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="lib/assets/css/domdomdom.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="lib/assets/css/main.css" type="text/css" media="screen"/>
     <title></title>
   </head>
   <body>
@@ -16,24 +16,47 @@
       <side>
         <content>
           <h3>Display</h3>
-          <div class="container">
+          <div id="container">
             <div id="display">
 
             </div>
           </div>
-          <button id="empty">Clear</button>
-          <span>Call empty() to clear display</span>
+          <span id="message"></span>
         <content>
       </side>
       <div class="buttons">
         <h3>Method Calls</h3>
         <section>
+          <button id="append">Append</button>
+          <span>Add DOM strings. Can add as many times as you want.</span>
+        </section>
+        <section>
+          <button id="addClass">Add Class</button>
+          <span>Add a class to display</span>
+        </section>
+        <section>
+          <button id="removeClass">Remove Class</button>
+          <span>Remove class from display</span>
+        </section>
+        <section>
           <button id="ajax">AJAX</button>
           <span>Make ajax call to Giphys API</span>
         </section>
         <section>
-          <button id="append">Append</button>
-          <span></span>
+          <button id="empty">Empty</button>
+          <span>Clears display</span>
+        </section>
+        <section>
+          <button id="find">Find</button>
+          <span id="refresh">Find all descriptions and remove them</span>
+        </section>
+        <section>
+          <button id="on">Add Listener</button>
+          <span>Add click listener to something</span>
+        </section>
+        <section>
+          <button id="on">Remove Listener</button>
+          <span>Remove click listener to something</span>
         </section>
       </div>
     </section>
