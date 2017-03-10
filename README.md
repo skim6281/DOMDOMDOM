@@ -26,7 +26,7 @@ Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to ma
 ##### `append`
   Insert content to the end of each element
 ##### `attr`
-  If one argument given, it gets the value of an attribute for the first element in the set of matched elements.  If two arguments given, it sets one ore more attributes for every matched element
+  If one argument given, it gets the value of an attribute for the first element in the set of matched elements.  If two arguments given, it sets one or more attributes for every matched element
 ##### `addClass`
   Adds the specified class to each matched element
 ##### `removeClass`
