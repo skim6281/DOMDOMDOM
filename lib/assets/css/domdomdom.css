@@ -9,6 +9,9 @@ body {
   background: #f4ece6;
 }
 
+header {
+  position: relative;
+}
 
 section {
   display: flex;
@@ -109,4 +112,13 @@ button {
 
 .parent {
   background: #efe6eb;
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -4px;
+  /*left: 50px;*/
+  right: 55px;
 }
