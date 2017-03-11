@@ -2,6 +2,8 @@
 
 Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to make HTML document traversal, manipulation, event handling, and Ajax easy to use.
 
+Demo(https://samuelkim.us/DOMDOMDOM)
+
 ## API
 #### $d
   Return a `DomNodeCollection` of matching `HTML` elements.
