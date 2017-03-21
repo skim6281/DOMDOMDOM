@@ -4,6 +4,11 @@ Inspired by jQuery, DOMDOMDOM is a JavaScript library that uses native DOM to ma
 
 [Demo](https://samuelkim.us/DOMDOMDOM)
 
+## How to Install
+To get started with DOMDOMDOM, download this rep and add ./lib/domdomdom.js as a script in your program.
+
+`<script type="text/javascript" src="lib/domdomdom.js" charset="utf-8"></script>`
+
 ## API
 #### $d
   Return a `DomNodeCollection` of matching `HTML` elements.
